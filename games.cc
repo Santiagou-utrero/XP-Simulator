@@ -41,7 +41,7 @@ bool rock_paper_scissors_game(){
     int randomNumber = dis(gen);
     
     std::string botChoise = option[randomNumber];
-    std::cout << "\nBot already chose\n";
+    std::cout << "\nBot already choose\n";
 
     if (optionChosen == botChoise)
     {
